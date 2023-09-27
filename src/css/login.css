@@ -1,0 +1,40 @@
+.btn-primary {
+    background-color: #007bff; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remove a borda */
+    cursor: pointer; /* Mostra o cursor de clique */
+    border-radius: 5px; /* Borda arredondada */
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Cor de fundo em hover */
+}
+
+/* Estiliza os rótulos */
+.form-label {
+    color: #007bff; /* Cor do texto */
+    font-weight: bold; /* Peso da fonte em negrito */
+    margin-bottom: 5px; /* Margem inferior para separação dos rótulos */
+    margin-top: 10px;
+  }
+  
+  /* Estiliza os campos de entrada de texto */
+.form-control {
+    border: 1px solid #ccc; /* Borda com cor cinza */
+    border-radius: 5px; /* Borda arredondada */
+    padding: 10px; /* Espaçamento interno */
+    margin-left: 20px;
+  }
+
+  /* Estiliza os contêineres dos rótulos e campos */
+.label-input-container {
+    display: flex; /* Use flexbox para alinhar os rótulos e campos na mesma linha */
+    align-items: center; /* Alinhe verticalmente ao centro */
+    margin-bottom: 10px; /* Margem inferior para separação dos pares rótulo/campo */
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 19px;
+  }

@@ -1,0 +1,16 @@
+.carousel_container{
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 55vh;
+  }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: rgba(123, 168, 216, 0.566);
+  }
+
+.centered-text {
+  text-align: center; /* Centraliza o texto horizontalmente */
+  font-size: 70px; /* Ajuste o tamanho da fonte conforme necessário */
+  font-family: 'Times New Roman', Times, serif;
+}

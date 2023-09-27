@@ -1,0 +1,38 @@
+.total-text {
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    margin-bottom: 10px; /* Espaçamento inferior */
+    margin-top: 10px;
+    text-align: center;
+}
+
+.button {
+    background-color: #007bff; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remove a borda */
+    cursor: pointer; /* Mostra o cursor de clique */
+    margin-top: 10px;
+    margin-left: 444px;
+}
+
+.button:hover {
+background-color: #0056b3;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+}
+
+.carrinho-image {
+    max-width: 333px; /* Defina a largura máxima da imagem */
+    margin: 579px;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-and-buttons {
+    flex: 1;
+}
